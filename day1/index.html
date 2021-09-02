@@ -14,14 +14,19 @@
             <section class="input-boxes">
                 <section class="img-container">
                     <img src="https://picsum.photos/200/200" alt="🔥">
-                    <p>Replace image</p>
+                    <button class="btn btn_replace">Replace image</button>
                 </section>
                 <section class="text-inputs">
                     <section class="input-container input-container__small"><label for="" >First name</label><input type="text" class="input"></section>
                     <section class="input-container input-container__small"><label for="" >Last name</label><input type="text" class="input"></section>
                     <section class="input-container"><label for="" >Occupation</label><input type="text" class="input"></section>
                     <section class="input-container"><label for="" >Company</label><input type="text" class="input"></section>
-                    <section class="input-container input-container__small"><label for="" >Location</label><input type="text" class="input"></section>
+                    <section class="input-container input-container__small select-wrap">
+                        <label for="nations" >Location</label>
+                        <select id="nations"type="text" class="input input_select">
+
+                        </select>
+                    </section>
                     <section class="input-container input-container__small"><input type="text" class="input"></section>
                 </section>
             </section>
@@ -32,5 +37,6 @@
         </form>
 
     </article>
+    <datalist></datalist>
 </body>
 </html>

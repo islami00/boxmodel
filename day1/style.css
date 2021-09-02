@@ -113,6 +113,15 @@ label {
   padding: 0 1rem;
 }
 
+.input_select {
+  appearance: none;
+}
+.select-wrap {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Arrow-down.svg);
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1rem) 50%;
+}
 .input-boxes {
   /* push h1 and buttons*/
   margin: 3rem 0;
@@ -129,10 +138,11 @@ label {
   border-radius: calc(var(--radius) / 3);
   text-transform: capitalize;
   font-weight: bold;
+  cursor: pointer;
 }
 
-.btn:first-of-type {
-  /* separate btns */
+.btns > .btn:first-of-type {
+  /* separate btns*/
   margin-right: var(--box-space);
 }
 
@@ -152,4 +162,14 @@ label {
   /* shift btns to right */
   position: absolute;
   right: var(--form-padding);
+}
+
+.btn_replace {
+  /* overrides */
+  width: fit-content;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: inherit;
+  font-size: inherit;
 }
