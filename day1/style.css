@@ -11,7 +11,7 @@ body {
   --border-width: 2.5px;
   --form-padding: 4rem;
   --form-color: hsl(238deg, 26%, 18%);
-  --border-color: hsl(238deg, 22%, 25%);
+  --border-color: hsl(238deg, 22%, 35%);
   --img-text-col: hsl(236deg, 34%, 45%);
   /* background init */
   background-color: var(--form-background-col);
@@ -115,9 +115,15 @@ label {
 
 .input_select {
   appearance: none;
-}
-.select-wrap {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Arrow-down.svg);
+  /* for the filter to color */
+  /* select resets */
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  /* add svg */
+  background-color: var(--form-color);
+  background-image: url(./Arrow-down.svg);
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) 50%;

@@ -23,11 +23,11 @@
                     <section class="input-container"><label for="" >Company</label><input type="text" class="input"></section>
                     <section class="input-container input-container__small select-wrap">
                         <label for="nations" >Location</label>
-                        <select id="nations"type="text" class="input input_select">
-
-                        </select>
+                        <select id="countries"type="text" class="input input_select">
+                            <option value="Norway">Norway</option>
+                        </select>   
                     </section>
-                    <section class="input-container input-container__small"><input type="text" class="input"></section>
+                    <section class="input-container input-container__small"><input type="text" list="cities" class="input"></section>
                 </section>
             </section>
             <section class="btns">
@@ -37,6 +37,8 @@
         </form>
 
     </article>
-    <datalist></datalist>
+    <datalist id="cities" hidden>
+        <option value="Bergen"></option>
+    </datalist>
 </body>
 </html>
