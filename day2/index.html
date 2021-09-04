@@ -13,27 +13,74 @@
     <header class="header">
       <nav class="nav">
         <h1 class="title">
-          <a href="#" class="logo">
-            <!-- css url -->
-            <img src="./media/Combined Shape.svg" alt="" srcset="" />
-            <p>Design Daily</p>
+          <a href="#">
+            <img class="logo" src="./media/logo.svg" alt="logo" />
           </a>
         </h1>
         <ul class="nav_links">
-          <li><a class="link nav_link">Free designs</a></li>
-          <li><a class="link nav_link">License</a></li>
-          <li><a class="link nav_link">Articles</a></li>
-          <li><a class="link nav_link">Contributors</a></li>
-          <li><a class="link nav_link">About</a></li>
+          <li><a href="#" class="link">Free designs</a></li>
+          <li><a href="#" class="link">License</a></li>
+          <li><a href="#" class="link">Articles</a></li>
+          <li><a href="#" class="link">Contributors</a></li>
+          <li><a href="#" class="link">About</a></li>
         </ul>
       </nav>
 
-      <section class="notifs">
-        <!-- Bell -->
-        <img src="" alt="avatar" class="user-avatar" />
+      <section class="notif-icons">
+        <img src="./media/notification.svg" alt="notifications" class="notif" />
+        <figure class="user-avatar"><img src="https://picsum.photos/39/59" alt="avatar" /></figure>
         <button class="btn btn_upload">Upload</button>
       </section>
     </header>
     <!-- </Menu> -->
+    <!-- <Body> -->
+    <main class="settings-wrap">
+      <aside class="setting-pane">
+        <h2 class="setting">Settings</h2>
+        <ul class="menu-nav">
+          <li class="link"><button>Public profile</button></li>
+          <li class="link"><button>Account settings</button></li>
+          <li class="link"><button>Notifications</button></li>
+          <li class="link"><button>PRO Account</button></li>
+        </ul>
+      </aside>
+      <form action="" class="form">
+        <fieldset class="input-grp input-grp_public-wrap">
+          <legend>Public profile</legend>
+          <section class="img-settings">
+            <img src="" alt="" class="user-avatar user-avatar_large" />
+            <section class="btns">
+              <button class="btn">Change picture</button>
+              <button class="btn btn_white">Delete picture</button>
+            </section>
+          </section>
+          <section class="input-container input-container__small">
+            <label for="">First name</label>
+            <input class="input" type="text" name="" id="" />
+          </section>
+          <section class="input-container input-container__small">
+            <input class="input" type="text" name="" id="" />
+            <label for="">Last name</label>
+          </section>
+          <section class="input-container">
+            <label for="">Profession</label>
+            <input class="input" type="text" name="" id="" placeholder="UI/UX Designer" />
+          </section>
+          <section class="input-container">
+            <label for="">Bio</label>
+            <input class="input" type="text" name="" id="" placeholder="Open-Source designer @ UI Design Daily" />
+          </section>
+        </fieldset>
+
+        <fieldset class="input-grp input-grp_bio-wrap">
+          <legend>Online presence</legend>
+          <section class="input-container"><input class="input" aria-label="website" type="url" name="" id="" placeholder="https://dribble.com/uidesigndaily"></section>
+          <section class="input-container"><input class="input" aria-label="instagram" type="url" name="" id="" placeholder="https://instagram.com/uidesigndaily"></section>
+          <button class="btn btn_add">Add more</button>
+        </fieldset>
+      </form>
+    
+    </main>
+    <!-- </Body> -->
   </body>
 </html>

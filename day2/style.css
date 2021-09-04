@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+/* font-family: 'Merriweather', serif; */
 * {
   margin: 0;
   padding: 0;
@@ -5,18 +7,87 @@
 }
 
 :root {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
+  --medium: 500;
+  --border-rad: 10px;
+  --notifs-size: 316px;
 }
+
 body {
+  font-weight: var(--medium);
   width: 1440px;
   height: 1775px;
 }
+
+/* <Menu> */
 .header {
   width: 100%;
   height: 120px;
+  padding: 0 50px;
   background-color: #fcfcff;
+  display: grid;
+  grid-template-columns: auto var(--notifs-size);
+  column-gap: 69px;
 }
 
-.title{
-
+.logo {
+  width: 140px;
+  height: 40px;
 }
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_links > * {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  width: 184px;
+  height: 54px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: var(--medium);
+  color: white;
+  background-color: #202142;
+  border-radius: var(--border-rad);
+  border: 0px solid transparent;
+}
+
+.user-avatar {
+  width: 39px;
+  height: 39px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_upload {
+  padding: 1ch;
+  background-image: url(./media/upload.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 5ch) 50%;
+}
+
+.notif-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* </Menu> */
