@@ -54,7 +54,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.nav_links > * {
+.nav_link {
   /* init */
   list-style-type: none;
 }
@@ -71,7 +71,7 @@ body {
   height: 54px;
   color: white;
   background-color: #202142;
-
+  cursor: pointer;
   /* topography */
   font-family: inherit;
   font-size: 1rem;
@@ -111,5 +111,14 @@ body {
 /* </Menu> */
 
 /* <Body> */
+.settings-wrap{
+  margin: 90px 0 0 216px;
+}
 
+.nav_links--vertical{
+  flex-direction: column;
+}
 /* </Body> */
+
+/*Extra! Responsivity */
+/* Start with removing body cap */
