@@ -34,7 +34,7 @@
     <!-- <Body> -->
     <main class="settings-wrap">
       <aside class="setting-pane">
-        <h1 class="setting">Settings</h1>
+        <h1 class="setting-title">Settings</h1>
         <ul class="nav_links nav_links--vertical">
           <li class="nav_link"><button class="btn btn_side-nav">Public profile</button></li>
           <li class="nav_link"><button class="btn btn_side-nav">Account settings</button></li>
@@ -44,9 +44,9 @@
       </aside>
       <form action="" class="form">
         <fieldset class="input-grp input-grp_public-wrap">
-          <legend>Public profile</legend>
+          <legend  class="input-grp_label">Public profile</legend>
           <section class="img-settings">
-            <img src="" alt="" class="user-avatar user-avatar_large" />
+            <figure class="user-avatar user-avatar_big"><img src="https://picsum.photos/170/256" alt="" /></figure>
             <section class="btns">
               <button class="btn">Change picture</button>
               <button class="btn btn_white">Delete picture</button>
@@ -57,8 +57,12 @@
             <input class="input" type="text" name="" id="" />
           </section>
           <section class="input-container input-container__small">
-            <input class="input" type="text" name="" id="" />
             <label for="">Last name</label>
+            <input class="input" type="text" name="" id="" />
+          </section>
+          <section class="input-container">
+            <label for="">Location</label>
+            <input class="input" type="email" name="" id="" placeholder="emails@private.com" />
           </section>
           <section class="input-container">
             <label for="">Profession</label>
@@ -71,7 +75,7 @@
         </fieldset>
 
         <fieldset class="input-grp input-grp_bio-wrap">
-          <legend>Online presence</legend>
+          <legend class="input-grp_label">Online presence</legend>
           <section class="input-container"><input class="input" aria-label="website" type="url" name="" id="" placeholder="https://dribble.com/uidesigndaily"></section>
           <section class="input-container"><input class="input" aria-label="instagram" type="url" name="" id="" placeholder="https://instagram.com/uidesigndaily"></section>
           <button class="btn btn_add">Add more</button>
