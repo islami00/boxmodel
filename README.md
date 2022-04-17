@@ -6,4 +6,4 @@ Essentially me going through ui design weekly, strengthening my css and skills w
 
 
 * [Day 1](https://islami00.github.io/boxmodel/day1)
-* [Day 2](https://islami00.github.io/boxmodel/day2)
+* [Day 2](https://islami00.github.io/boxmodel/day2) *Individual components complete, pending layout
