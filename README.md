@@ -5,5 +5,5 @@
 Essentially me going through ui design weekly, strengthening my css and skills with the box model, might switch to scss.
 
 
-* [Day 1](https://github.io/islami00/boxmodel/day1)
-* [Day 2](https://github.io/islami00/boxmodel/day2)
+* [Day 1](https://islami00.github.io/boxmodel/day1)
+* [Day 2](https://islami00.github.io/boxmodel/day2)
